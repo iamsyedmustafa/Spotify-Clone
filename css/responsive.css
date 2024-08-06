@@ -1,0 +1,367 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 940px; /* Changed width to 940px */
+	}
+    .Everywhere .platform_name,
+    .Everywhere .platform_link{
+        display: block;
+        margin-bottom: 10px; /* Added margin-bottom for spacing */
+    }
+    .top-solution-inner br{
+        display: none;
+    }
+    .premium-head .container {
+        padding: 80px 20px; /* Increased padding */
+    }
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		max-width: 730px; /* Changed max-width to 730px */
+		width: 100%;
+    }
+    header {
+        background-color: var(--dark-gray); /* Changed background color */
+    }
+    .header {
+        grid-template-columns: 120px auto; /* Changed logo width */
+        height: 60px; /* Increased height */
+    }
+    .header .logo {
+        width: 100px; /* Increased width */
+        height: 30px; /* Increased height */
+    }
+	.navigation {
+		display: none;
+    }
+    .profile_icon-mobile{
+        display: flex;
+    }
+	.container-togg {
+		display: inline-block;
+    }
+    .usericon{
+        width: 36px; /* Increased width */
+        height: 36px; /* Increased height */
+        display: inline-block;
+        margin-right: 20px; /* Increased margin */
+    }
+    .hm_cont {
+        grid-template-columns: 1fr;
+        margin-top: 200px; /* Increased margin */
+    }
+    .home_text {
+        align-items: center;
+    }
+    .hm_cont h1 {
+        font-size: 68px; /* Increased font size */
+        margin-top: 10px; /* Increased margin */
+    }
+    .last_listen .ll_row {
+        grid-template-columns: 1fr;
+        row-gap: 110px; /* Increased row gap */
+        padding-right: 20px; /* Increased padding */
+    }
+    .last_listen .ll_card {
+        grid-template-rows: 320px; /* Increased height */
+        grid-template-columns: 60% 40%; /* Adjusted columns */
+    }
+    .last_listen h1 {
+        font-size: 42px; /* Increased font size */
+    }
+    .last_listen .ll_card span h2 {
+        width: 120%; /* Increased width */
+    }
+    .title-1 {
+        font-size: 42px; /* Increased font size */
+    }
+    .home_links .container.links {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px; /* Increased row gap */
+    }
+    footer {
+        padding: 55px 0 25px; /* Adjusted padding */
+    }
+    .footer-cont {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 60px 340px 90px auto auto; /* Adjusted grid layout */
+        grid-template-areas:
+            'logo'
+            'footer-nav'
+            'social'
+            'tr'
+            'footer_bot';
+    }
+    footer .social ul {
+        margin-left: 5px; /* Adjusted margin */
+    }
+    footer .logo svg {
+        max-width: 92px; /* Increased width */
+        height: 30px; /* Increased height */
+    }
+    .footer-nav .fn-left, .footer-nav .fn-mid, .footer-nav .fn-right {
+        padding: 0;
+    }
+    footer .social ul li a {
+        width: 48px; /* Increased size */
+        height: 48px; /* Increased size */
+    }
+    .why-cards {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 55px; /* Increased row gap */
+        margin-top: 70px; /* Increased margin */
+    }
+    .plans-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 250px; /* Increased row gap */
+    }
+    .top-solution {
+        grid-template-columns: 1fr;
+        padding: 25px 0 45px; /* Adjusted padding */
+        text-align: left;
+    }
+    .top-solution a {
+        margin-bottom: 8px; /* Increased margin */
+    }
+    .links_boxs {
+        grid-template-columns: 1fr;
+    }
+    .Help-links {
+        background-color: #f9f9f9; /* Changed background color */
+        padding: 10px; /* Added padding */
+    }
+    .Help-links .container {
+        padding: 10px; /* Added padding */
+        max-width: 100%;
+    }
+    .link_box {
+        position: relative;
+        border-bottom: 1px solid #b1b3b6; /* Changed border color */
+    }
+    .link_box::after {
+        content: ">>"; /* Changed arrow */
+        position: absolute;
+        top: 22px;
+        right: 18px; /* Adjusted position */
+        color: #333; /* Changed color */
+    }
+    .link_box span {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out; /* Increased transition duration */
+        background-color: #f0f0f0; /* Changed background color */
+    }
+    .link_box span a:first-child{
+        padding-top: 18px; /* Increased padding */
+    }
+    .link_box h3 {
+        font-size: 22px; /* Increased font size */
+        line-height: 30px; /* Increased line height */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Everywhere .platform_name, .Everywhere .platform_link {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 0px;
+    }
+    .Everywhere .platform_name li:not(:last-child)::after, 
+    .Everywhere .platform_link li:not(:last-child)::after {
+        content: none;
+    }
+    .download {
+        padding: 50px 20px 50px; /* Increased padding */
+    }
+    .download img {
+        margin-top: 16px; /* Increased margin */
+    }
+    .visitCommunity {
+        padding: 70px 0px; /* Increased padding */
+    }
+    .visitCommunity h1 {
+        font-size: 34px; /* Increased font size */
+        line-height: 42px; /* Increased line height */
+    }
+    .Search {
+        padding: 0;
+    }
+    .Search h1 {
+        padding: 36px 0 36px; /* Increased padding */
+        font-size: 48px; /* Increased font size */
+        line-height: 56px; /* Increased line height */
+    }
+    .home_cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .box img {
+        height: 100%;
+    }
+	.home_links .container.links {
+        grid-template-columns: 1fr;
+    }
+    .premium-head h1 {
+        font-size: 50px; /* Increased font size */
+    }
+    .title-2 {
+        font-size: 26px; /* Increased font size */
+    }
+    .premium-head .black_btn {
+        width: 100%;
+        text-align: center;
+    }
+    .title-1 {
+        font-size: 34px; /* Increased font size */
+    }
+    .why-cards {
+        grid-template-columns: 1fr;
+        row-gap: 55px; /* Increased row gap */
+    }
+    .plans-text h2 {
+        font-size: 34px; /* Increased font size */
+    }
+    .plans-container {
+        grid-template-columns: 1fr;
+        row-gap: 250px; /* Increased row gap */
+    }
+    header {
+        background-color: var(--dark-gray) !important; /* Changed background color */
+    }
+    .searchInputBox {
+        position: relative;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .phoneNtablet h3 {
+        font-size: 30px; /* Increased font size */
+        line-height: 38px; /* Increased line height */
+    }
+    .Everywhere h3 {
+        font-size: 30px; /* Increased font size */
+        line-height: 38px; /* Increased line height */
+    }
+    .Search h1 {
+        font-size: 38px; /* Increased font size */
+        line-height: 50px; /* Increased line height */
+    }
+    .premium-head h1 {
+        font-size: 44px; /* Increased font size */
+    }
+    .title-2 {
+        font-size: 22px; /* Increased font size */
+    }
+    .why-premium {
+        padding: 40px 0px 55px 0px; /* Adjusted padding */
+    }
+    .plans-container {
+        grid-template-columns: 1fr;
+        row-gap: 220px; /* Increased row gap */
+    }
+    .premium-head {
+        padding-top: 55px; /* Increased padding */
+    }
+    .home_text {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hm_cont h1 {
+        font-size: 50px; /* Increased font size */
+    }
+    .hm_cont h3 {
+        font-size: 22px; /* Increased font size */
+        text-align: center;
+    }
+    .green_btn {
+        margin-top: 25px; /* Increased margin */
+        font-size: 15px; /* Increased font size */
+        padding: 18px 45px; /* Increased padding */
+    }
+    .home_cards {
+        grid-template-columns: 50% 50% 50% 50% 50% 50%;
+        grid-template-rows: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        overflow-x: scroll;
+    }
+    .box img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .arrow-scroll-down {
+        width: 30px; /* Increased width */
+        height: 35px; /* Increased height */
+        padding-top: 12px; /* Increased padding */
+        padding-bottom: 85px; /* Increased padding */
+    }
+    .home_links {
+        padding-top: 35px; /* Increased padding */
+        padding-bottom: 65px; /* Increased padding */
+    }
+    .title-1 {
+        font-size: 34px; /* Increased font size */
+    }
+    .home_links .container.links {
+        grid-template-columns: 1fr;
+    }
+    .a_link {
+        font-size: 14px; /* Increased font size */
+    }
+	.last_listen .container {
+        padding-top: 35px; /* Increased padding */
+        padding-bottom: 85px; /* Increased padding */
+    }
+    .last_listen h1 {
+        font-size: 34px; /* Increased font size */
+    }
+    .last_listen .ll_row {
+        row-gap: 80px; /* Increased row gap */
+    }
+    .last_listen .ll_card {
+        grid-template-rows: auto;
+    }
+    .last_listen .ll_card span h5 {
+        margin: 14px 0 14px -8px; /* Increased margin */
+        font-size: 12px; /* Increased font size */
+        line-height: 18px; /* Increased line height */
+    }
+    .last_listen .ll_card span h2 {
+        margin-left: -12px; /* Adjusted margin */
+        width: 125%; /* Increased width */
+        padding: 10px 42px; /* Increased padding */
+        font-size: 20px; /* Increased font size */
+    }
+    .footer-cont {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 60px 740px 90px 30px auto; /* Adjusted grid layout */
+        grid-template-areas:
+            'logo'
+            'footer-nav'
+            'social'
+            'tr'
+            'footer_bot';
+    }
+    footer .footer-nav {
+        grid-template-columns: 1fr;
+    }
+    footer .footer_bot {
+        display: block;
+    }
+    footer .footer_bot ul {
+        margin:0;
+    }
+    footer .footer_bot ul li a {
+        padding: .4em 0; /* Increased padding */
+    }
+    footer .footer_bot span {
+        display: block;
+    }
+}
